@@ -49,18 +49,48 @@ marquee{
   grid-template-rows: 200px auto;
   grid-template-areas:
   "texto texto"
-  "img01 img02"
-  "img01 img03"
+  "imgIndex01 imgIndex02"
+  "imgIndex01 imgIndex03"
 }
 .cuarto-primero--derecha p{
   grid-area: texto;
 }
 .cuarto-primero--derecha .img01{
-  grid-area: img01;
+  grid-area: imgIndex01;
 }
 .cuarto-primero--derecha .img02{
-  grid-area: img02;
+  grid-area: imgIndex02;
 }
 .cuarto-primero--derecha .img03{
-  grid-area: img03;
+  grid-area: imgIndex03;
+}
+.contactoFooter{
+  display: flex;
+  justify-content: space-between;
+  margin: 4rem 2;
+}
+#contacto{
+  width: 50%;
+  padding: 2rem;
+}
+.ubicacion{
+  padding: 2rem 0 0 8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.derechos{
+  font-size: 0.7rem;
+  margin: 0;
+  padding: 1rem;
+}
+footer{
+  div{
+    div{
+      ul{
+        padding-top: 1rem;
+      }
+    }
+  }
 }

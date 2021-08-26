@@ -1,4 +1,6 @@
 @import "index";
+@import "portfolio";
+@import "videos";
 
 .blueRYB{
   color: #004EF5;
@@ -21,10 +23,15 @@
 
 body{
   font-size: 12px;
+  padding: 0;
+  margin: 0;
 }
 p{
   font-size: 1.1rem;
   font-weight: 300;
+}
+ul{
+  padding: 0;
 }
 marquee{
   font-size: 8rem;
@@ -40,11 +47,27 @@ button{
   background-color: #fff !important;
   border-color: #F05219 !important;
 }
+i{
+  color: #F05219;
+  font-size: 1.5rem;
+}
+i:hover{
+  color: #C0F500;
+}
+.carousel-control-next, .carousel-control-prev{
+  opacity: 1;
+}
 .bordesForm{
-  border-color: #C0F500;
+  border-color: #F05219;
+  background-color: #C0F500;
+  transition: none;
 }
 .titulosPortfolio{
   font-size: 6rem;
+  padding-left: 2rem;
+}
+.seleccionado{
+  text-decoration: line-through;
 }
 nav{
   div{

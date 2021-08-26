@@ -1,0 +1,17 @@
+.containerVideos{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.containerVideos-links{
+  display: flex;
+  flex-direction: column;
+  margin: 10rem 0 0 2rem;
+}
+.containerVideos-videos{
+  margin-top: 5rem;
+  display: block;
+  width: 660px;
+  height: 580px ;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}

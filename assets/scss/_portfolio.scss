@@ -1,0 +1,66 @@
+.containerPortfolio-primero{
+  margin-top: 5rem;
+  display: grid;
+  grid-template-columns: 20rem auto;
+  grid-template-rows: 20rem auto;
+  grid-template-areas:
+  "imgPortfolio01 imgPortfolio02"
+  "imgPortfolio03 imgPortfolio04"
+}
+.imgPortfolio01{
+  grid-area: imgPortfolio01;
+  padding-left: 2rem;
+}
+.imgPortfolio02{
+  grid-area: imgPortfolio02;
+  padding: 5rem 0 0 20rem;
+}
+.imgPortfolio03{
+  grid-area: imgPortfolio03;
+  padding: 0 0 0 10rem;
+}
+.imgPortfolio04{
+  grid-area: imgPortfolio04;
+  padding: 3rem 0 0 26rem;
+}
+.containerPortfolio-video--primero{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 7rem;
+}
+.videoCuadricula-uno{
+  padding: 2rem 8rem 0 0;
+}
+.containerPortfolio-video--segundo{
+  display: flex;
+  justify-content: space-around;
+  padding-top: 7rem;
+}
+.containerPortfolio-video--tercero{
+  display: flex;
+  margin-top: 5rem;
+}
+.containerPortfolio-video--tercero{
+  ul{
+    padding: 5rem 0 0 20rem;
+  }
+}
+.videoCuadricula-dos{
+  padding: 5rem 0 0 2rem
+}
+.containerCarousel{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+}
+.carouselEditado{
+  height: 400px;
+  width: 500px;
+}
+.containerCeramicas{
+  margin-top: 8rem;
+  display: flex;
+  justify-content: space-between;
+}
