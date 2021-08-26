@@ -1,0 +1,66 @@
+.containerIndex-primero{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5rem;
+}
+.containerIndex-segundo .imagen01{
+  padding: 5rem 0 0 2rem;
+}
+.containerIndex-segundo .imagen02{
+  padding: 20rem 0 0 2rem;
+}
+.containerIndex-segundo .imagen03{
+  padding: 14rem 0 0 2rem;
+}
+marquee{
+  padding: 5rem 0;
+}
+.containerIndex-tercero{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.containerIndex-cuarto{
+  padding-top: 13rem;
+}
+.containerIndex-cuarto--primero{
+  display: flex;
+  flex-direction: row;
+}
+.cuarto-primero--izquierda{
+    display: flex;
+    flex-direction: column;
+}
+.cuarto-primero--izquierda{
+  img{
+    padding: 2rem;
+  }
+}
+.cuarto-primero--abajo{
+  img{
+    padding: 2rem 0 0 12rem;
+  }
+}
+.cuarto-primero--derecha{
+  padding-left: 2rem;
+  display: grid;
+  grid-template-columns: 36rem auto;
+  grid-template-rows: 200px auto;
+  grid-template-areas:
+  "texto texto"
+  "img01 img02"
+  "img01 img03"
+}
+.cuarto-primero--derecha p{
+  grid-area: texto;
+}
+.cuarto-primero--derecha .img01{
+  grid-area: img01;
+}
+.cuarto-primero--derecha .img02{
+  grid-area: img02;
+}
+.cuarto-primero--derecha .img03{
+  grid-area: img03;
+}

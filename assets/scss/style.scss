@@ -1,0 +1,75 @@
+@import "index";
+
+.blueRYB{
+  color: #004EF5;
+}
+.bitterLime{
+  color: #C0F500;
+}
+.redOrangeColorWheel{
+  color: #F05219;
+}
+.kaiseiTokumin{
+  font-family: 'Kaisei Tokumin', serif;
+}
+.spaceMono{
+  font-family: 'Space Mono', monospace;
+}
+.openSans{
+  font-family: 'Open Sans', sans-serif;
+}
+
+body{
+  font-size: 12px;
+}
+p{
+  font-size: 1.1rem;
+  font-weight: 300;
+}
+marquee{
+  font-size: 8rem;
+}
+label{
+  font-size: 0.9rem;
+  font-family: 'Open Sans';
+  font-weight: 400;
+  color: #F05219;
+}
+button{
+  color: #F05219 !important;
+  background-color: #fff !important;
+  border-color: #F05219 !important;
+}
+.bordesForm{
+  border-color: #C0F500;
+}
+.titulosPortfolio{
+  font-size: 6rem;
+}
+nav{
+  div{
+    a{
+      font-size: 1rem;
+    }
+  }
+}
+a:hover{
+  color: #F05219;
+  text-decoration: line-through;
+}
+div{
+  ul{
+    li{
+      font-size: 0.9rem;
+      list-style: none;
+    }
+  }
+}
+footer{
+  ul{
+    li{
+      font-size: 0.8rem;
+      list-style: none;
+    }
+  }
+}
