@@ -1,3 +1,9 @@
+.ordenNavbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between; }
+
 .containerIndex-primero {
   display: flex;
   flex-direction: column;
@@ -151,6 +157,10 @@ footer div div ul {
   margin-top: 8rem;
   display: flex;
   justify-content: space-between; }
+
+.gitHub {
+  color: #F05219;
+  font-size: 2rem; }
 
 .containerVideos {
   display: flex;
