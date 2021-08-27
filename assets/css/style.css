@@ -13,7 +13,7 @@
 .containerIndex-segundo .imagen03 {
   padding: 14rem 0 0 2rem; }
 
-marquee {
+.marqueeIndex {
   padding: 5rem 0; }
 
 .containerIndex-tercero {
@@ -33,7 +33,7 @@ marquee {
   flex-direction: column; }
 
 .cuarto-primero--izquierda img {
-  padding: 2rem; }
+  padding: 0 0 4rem 2rem; }
 
 .cuarto-primero--abajo img {
   padding: 2rem 0 0 12rem; }
@@ -57,20 +57,27 @@ marquee {
 .cuarto-primero--derecha .img03 {
   grid-area: imgIndex03; }
 
+#about {
+  margin-top: 10rem; }
+
 .contactoFooter {
   display: flex;
   justify-content: space-between;
-  margin: 4rem 2; }
+  margin: 10rem 3rem; }
 
 #contacto {
   width: 50%;
   padding: 2rem; }
 
 .ubicacion {
-  padding: 2rem 0 0 8rem;
+  padding-left: 8rem;
   display: flex;
   flex-direction: column;
-  align-items: center; }
+  align-items: center;
+  justify-content: center; }
+
+.ubicacion img {
+  width: 70%; }
 
 .derechos {
   font-size: 0.7rem;
@@ -123,6 +130,9 @@ footer div div ul {
 .containerPortfolio-video--tercero ul {
   padding: 5rem 0 0 20rem; }
 
+.containerPortfolio-video--tercero ul li a:hover {
+  text-decoration: line-through; }
+
 .videoCuadricula-dos {
   padding: 5rem 0 0 2rem; }
 
@@ -143,21 +153,30 @@ footer div div ul {
   justify-content: space-between; }
 
 .containerVideos {
-  display: grid;
-  grid-template-columns: 1fr 1fr; }
+  display: flex;
+  flex-direction: row; }
 
 .containerVideos-links {
+  position: fixed;
+  top: 12rem;
   display: flex;
   flex-direction: column;
-  margin: 10rem 0 0 2rem; }
+  padding-left: 2rem; }
 
 .containerVideos-videos {
-  margin-top: 5rem;
-  display: block;
-  width: 660px;
-  height: 580px;
-  overflow-y: scroll;
-  scroll-behavior: smooth; }
+  margin: 7rem 0 0 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end; }
+
+.marqueeLinks {
+  font-size: 6rem;
+  padding: none;
+  max-height: 5rem;
+  padding-top: 2rem; }
+
+.containerVideos-links a:hover {
+  text-decoration: line-through; }
 
 .blueRYB {
   color: #004EF5; }
@@ -189,7 +208,7 @@ p {
 ul {
   padding: 0; }
 
-marquee {
+.marqueeIndex {
   font-size: 8rem; }
 
 label {
@@ -230,7 +249,7 @@ nav div a {
 
 a:hover {
   color: #F05219;
-  text-decoration: line-through; }
+  text-decoration: none; }
 
 div ul li {
   font-size: 0.9rem;

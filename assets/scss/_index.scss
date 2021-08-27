@@ -13,7 +13,7 @@
 .containerIndex-segundo .imagen03{
   padding: 14rem 0 0 2rem;
 }
-marquee{
+.marqueeIndex{
   padding: 5rem 0;
 }
 .containerIndex-tercero{
@@ -34,7 +34,7 @@ marquee{
 }
 .cuarto-primero--izquierda{
   img{
-    padding: 2rem;
+    padding: 0 0 4rem 2rem;
   }
 }
 .cuarto-primero--abajo{
@@ -64,21 +64,29 @@ marquee{
 .cuarto-primero--derecha .img03{
   grid-area: imgIndex03;
 }
+#about{
+  margin-top: 10rem;
+}
 .contactoFooter{
   display: flex;
   justify-content: space-between;
-  margin: 4rem 2;
+  margin: 10rem 3rem;
 }
 #contacto{
   width: 50%;
   padding: 2rem;
 }
 .ubicacion{
-  padding: 2rem 0 0 8rem;
+  padding-left: 8rem;
   display: flex;
   flex-direction: column;
   align-items: center;
-
+  justify-content: center;
+}
+.ubicacion{
+  img{
+    width: 70%;
+  }
 }
 .derechos{
   font-size: 0.7rem;
