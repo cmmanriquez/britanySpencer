@@ -42,11 +42,6 @@ label{
   font-weight: 400;
   color: #F05219;
 }
-button{
-  color: #F05219 !important;
-  background-color: #fff !important;
-  border-color: #F05219 !important;
-}
 i{
   color: #F05219;
   font-size: 1.5rem;
@@ -61,6 +56,14 @@ i:hover{
   border-color: #F05219;
   background-color: #C0F500;
   transition: none;
+}
+.botonModificadoEnviar{
+  color: FFFFFF !important;
+  background-color: #F05219 !important;
+  border-color: #F05219 !important;
+}
+.botonModificadoMobile{
+  border-color: transparent;
 }
 .titulosPortfolio{
   font-size: 6rem;
@@ -79,6 +82,12 @@ nav{
 a:hover{
   color: #F05219;
   text-decoration: none;
+}
+.iconoNavbar{
+  color: #F05219;
+}
+.navItemModificado{
+  justify-content: space-between;
 }
 div{
   ul{
