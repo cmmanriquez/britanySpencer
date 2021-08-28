@@ -1,6 +1,7 @@
 @import "index";
 @import "portfolio";
 @import "videos";
+@import "mobile";
 
 .blueRYB{
   color: #004EF5;
@@ -56,11 +57,17 @@ i:hover{
   border-color: #F05219;
   background-color: #C0F500;
   transition: none;
+  font-family: 'Open Sans', sans-serif;
+  color: #F05219;
 }
-.botonModificadoEnviar{
-  color: FFFFFF !important;
-  background-color: #F05219 !important;
-  border-color: #F05219 !important;
+#botonModificadoEnviar, #botonModificadoBorrar{
+  color: #F05219;
+  background-color: #FFFFFF;
+  border-color: #F05219;
+  font-family: 'Open Sans', sans-serif;
+}
+#botonModificadoEnviar:hover, #botonModificadoBorrar:hover{
+  background-color: #C0F500;
 }
 .botonModificadoMobile{
   border-color: transparent;
@@ -100,4 +107,10 @@ footer{
       list-style: none;
     }
   }
+}
+.derechos{
+  font-size: 0.7rem;
+  margin: 0;
+  padding: 1rem;
+  font-family: 'Open Sans', sans-serif;
 }

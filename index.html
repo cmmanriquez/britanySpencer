@@ -25,7 +25,7 @@
       
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav navItemModificado">
-              <a class="nav-link bitterLime kaiseiTokumin" href="#">Britany Spencer</a>
+              <a class="navbar-brand bitterLime kaiseiTokumin ocultarMobile" href="#">Britany Spencer</a>
             <li class="nav-item">
               <a class="nav-link bitterLime kaiseiTokumin" href="./assets/views/portfolio.html">portfolio</a>
             </li>
@@ -43,9 +43,11 @@
         <video src="./assets/img/indexPrimer.mp4" autoplay loop muted playsinline></video>
     </div>
     <div class="containerIndex-segundo">
-        <img class="indexSegundoImagen01" src="./assets/img/indexSegundo01.jpg" alt="Imagen de una cerámica rompiéndose. Britany Spencer.">
-        <img class="indexSegundoImagen02" src="./assets/img/indexSegundo02.jpg" alt="Imagen de una cerámica rompiéndose. Britany Spencer.">
-        <img class="indexSegundoImagen03" src="./assets/img/indexSegundo03.jpg" alt="Imagen de una cerámica rompiéndose. Britany Spencer.">
+        <div class="indexSegundoImagenes">
+            <img class="indexSegundoImagen01" src="./assets/img/indexSegundo01.jpg" alt="Imagen de una cerámica rompiéndose. Britany Spencer.">
+            <img class="indexSegundoImagen02" src="./assets/img/indexSegundo02.jpg" alt="Imagen de una cerámica rompiéndose. Britany Spencer.">
+        </div>
+        
         <marquee class="blueRYB spaceMono marqueeIndex" behavior="scroll" direction="left" scrollamount="20">el tiempo el tiempo el tiempo el tiempo el tiempo</marquee>
     </div>
     <div class="containerIndex-tercero">
@@ -77,7 +79,7 @@
     </div>
 
     <div id="about">
-        <p class="blueRYB openSans">
+        <p class="blueRYB openSans aboutTexto">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia sint quae debitis, nobis ullam aperiam
             sapiente deserunt voluptas, mollitia eveniet fugiat? Consequatur repudiandae, ipsam non quas veritatis
             voluptate incidunt perspiciatis temporibus reprehenderit dolores sint asperiores aliquid, hic eius in quod
@@ -87,6 +89,7 @@
             laudantium. Aliquam numquam rem libero dicta accusantium facere iste odit quisquam nulla, ipsum officia
             provident, veritatis ex. Quas!
         </p>
+        <img class="aboutImagen" src="https://dummyimage.com/350x300" alt="">
     </div>
 
     <footer>
@@ -106,9 +109,10 @@
                     </div>
                     <div class="form-group">
                         <label for="exampleFormControlTextarea1">Comentarios</label>
-                        <textarea class="form-control bordesForm" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        <textarea class="form-control bordesForm" id="exampleFormControlTextarea1 textAreaModificador" rows="3"></textarea>
                     </div>
-                    <button type="button" class="btn btn-primary botonModificadoEnviar boton" data-toggle="button" aria-pressed="false">
+                    <button id="botonModificadoBorrar" class="btn btn-primary boton" type="reset">Borrar</button>
+                    <button id="botonModificadoEnviar" type="button" class="btn btn-primary boton" data-toggle="button" aria-pressed="false">
                         Enviar
                     </button>
                 </form>
