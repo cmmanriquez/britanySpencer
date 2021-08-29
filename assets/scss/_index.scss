@@ -9,7 +9,7 @@
   margin-top: 5rem;
   z-index: 2;
 }
-.indexSegundoImagenes{
+.indexSegundoImagenesLG{
   display: flex;
   justify-content: space-around;
 }
@@ -61,20 +61,20 @@
 .cuarto-primero--derecha p{
   grid-area: texto;
 }
-.cuarto-primero--derecha .img01{
+.cuarto-primero--derecha .imgIndexLG01{
   grid-area: imgIndex01;
 }
-.cuarto-primero--derecha .img02{
+.cuarto-primero--derecha .imgIndexLG02{
   grid-area: imgIndex02;
 }
-.cuarto-primero--derecha .img03{
+.cuarto-primero--derecha .imgIndexLG03{
   grid-area: imgIndex03;
 }
 .aboutTexto{
-  padding: 10rem 2rem 5rem 2rem;
+  padding: 10rem 2rem 3rem 2rem;
 }
 .aboutImagen{
-  padding: 2rem 0 0 12rem;
+  padding: 0 0 0 12rem;
 }
 .contactoFooter{
   display: flex;

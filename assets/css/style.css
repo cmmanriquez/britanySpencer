@@ -9,7 +9,7 @@
   margin-top: 5rem;
   z-index: 2; }
 
-.indexSegundoImagenes {
+.indexSegundoImagenesLG {
   display: flex;
   justify-content: space-around; }
 
@@ -54,20 +54,20 @@
 .cuarto-primero--derecha p {
   grid-area: texto; }
 
-.cuarto-primero--derecha .img01 {
+.cuarto-primero--derecha .imgIndexLG01 {
   grid-area: imgIndex01; }
 
-.cuarto-primero--derecha .img02 {
+.cuarto-primero--derecha .imgIndexLG02 {
   grid-area: imgIndex02; }
 
-.cuarto-primero--derecha .img03 {
+.cuarto-primero--derecha .imgIndexLG03 {
   grid-area: imgIndex03; }
 
 .aboutTexto {
-  padding: 10rem 2rem 5rem 2rem; }
+  padding: 10rem 2rem 3rem 2rem; }
 
 .aboutImagen {
-  padding: 2rem 0 0 12rem; }
+  padding: 0 0 0 12rem; }
 
 .contactoFooter {
   display: flex;
@@ -116,6 +116,10 @@
 
 footer div div ul {
   padding-top: 1rem; }
+
+.titulosPortfolioLG {
+  font-size: 6rem;
+  padding-left: 2rem; }
 
 .containerPortfolio-primero {
   margin-top: 5rem;
@@ -173,7 +177,7 @@ footer div div ul {
   align-items: center;
   margin-top: 3rem; }
 
-.carouselEditado {
+.carouselEditadoLG {
   height: 400px;
   width: 500px; }
 
@@ -184,20 +188,24 @@ footer div div ul {
 
 .gitHub {
   color: #F05219;
-  font-size: 2rem; }
+  font-size: 2rem;
+  padding-left: 2rem; }
+
+.ubicacionImgPortfolio {
+  max-width: 3rem;
+  margin-bottom: 1rem; }
+
+.ubicacion div p {
+  padding: 0; }
+
+#videos {
+  padding-top: 2rem; }
 
 .containerVideos {
   display: flex;
   flex-direction: row; }
 
-.containerVideos-links {
-  position: fixed;
-  top: 12rem;
-  display: flex;
-  flex-direction: column;
-  padding-left: 2rem; }
-
-.containerVideos-videos {
+.containerVideos-videosLG {
   margin: 7rem 0 0 40%;
   display: flex;
   flex-direction: column;
@@ -213,8 +221,139 @@ footer div div ul {
   text-decoration: line-through; }
 
 @media (max-width: 575.98px) {
+  /*GENERALES*/
   .ocultarMobile {
-    display: none; } }
+    display: none; }
+  /*INDEX*/
+  .containerIndex-primero {
+    margin-top: 4rem; }
+    .containerIndex-primero video {
+      max-width: 90%; }
+  .indexSegundoImagenesMobile {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; }
+  .containerIndex-tercero {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center; }
+    .containerIndex-tercero img {
+      padding-bottom: 1rem; }
+  .containerIndex-cuarto {
+    display: block;
+    padding-top: 7rem; }
+  .cuarto-primero--derecha {
+    display: block;
+    padding: 0 1rem; }
+  .aboutTexto {
+    padding: 6rem 1rem 3rem 2rem; }
+  .contactoFooter {
+    margin: 0;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center; }
+  #contacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%; }
+  .ubicacion {
+    padding: 1rem 0 0 0; }
+    .ubicacion ul {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end; }
+    .ubicacion p {
+      padding: 0; }
+  /*PORTFOLIO*/
+  .containerPortfolio-primero {
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  .containerPortfolio-primero .imgPortfolio01, .containerPortfolio-primero .imgPortfolio03 {
+    padding: 0; }
+  .containerPortfolio-primero .imgPortfolio03 {
+    padding-top: 2rem; }
+  .titulosPortfolioMobile {
+    font-size: 3.6rem;
+    padding-left: 1rem; }
+  .containerPortfolio-video--primero {
+    display: block;
+    margin-top: 4rem; }
+  .videoCuadricula-uno {
+    padding: 2rem 0 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end; }
+    .videoCuadricula-uno div {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-end; }
+      .videoCuadricula-uno div img {
+        padding-bottom: 1rem; }
+  .containerPortfolio-video--tercero {
+    display: flex;
+    flex-direction: column-reverse; }
+    .containerPortfolio-video--tercero .portfolioListaDeVideos {
+      padding: 0 0 0 2rem; }
+      .containerPortfolio-video--tercero .portfolioListaDeVideos a {
+        font-size: 1.2rem; }
+    .containerPortfolio-video--tercero .videoCuadricula-dos {
+      padding: 5rem 0 0 0; }
+      .containerPortfolio-video--tercero .videoCuadricula-dos div {
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; }
+        .containerPortfolio-video--tercero .videoCuadricula-dos div img {
+          padding-bottom: 1rem; }
+  .containerCeramicas {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column; }
+    .containerCeramicas .containerCeramicas-cuadricula {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+      .containerCeramicas .containerCeramicas-cuadricula img {
+        padding: 2rem 0; }
+  .carouselEditadoMobile {
+    height: 400px;
+    width: 300px; }
+  .containerWeb {
+    margin-top: 4rem; }
+  .gitHub {
+    margin-left: 2rem; }
+  .ubicacion img {
+    max-width: 20%;
+    margin-bottom: 1rem; }
+  /*VIDEOS*/
+  .containerVideos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 5rem;
+    padding-left: 0; }
+    .containerVideos .containerVideos-links {
+      display: flex;
+      flex-direction: column;
+      padding: 2rem 0 0 1rem; }
+    .containerVideos .containerVideos-videosMobile {
+      margin-top: 3rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+      .containerVideos .containerVideos-videosMobile iframe {
+        margin-bottom: 1rem; } }
 
 .blueRYB {
   color: #004EF5; }
@@ -233,6 +372,9 @@ footer div div ul {
 
 .openSans {
   font-family: 'Open Sans', sans-serif; }
+
+html {
+  scroll-behavior: smooth; }
 
 body {
   font-size: 12px;
@@ -284,10 +426,6 @@ i:hover {
 .botonModificadoMobile {
   border-color: transparent; }
 
-.titulosPortfolio {
-  font-size: 6rem;
-  padding-left: 2rem; }
-
 .seleccionado {
   text-decoration: line-through; }
 
@@ -313,7 +451,19 @@ footer ul li {
   list-style: none; }
 
 .derechos {
-  font-size: 0.7rem;
+  font-size: 0.6rem;
+  opacity: 0.6;
   margin: 0;
   padding: 1rem;
   font-family: 'Open Sans', sans-serif; }
+
+/*Ajustes generales en desktop*/
+@media (min-width: 767.98px) {
+  .ocultarDesktop {
+    display: none; }
+  .containerVideos-links {
+    position: fixed;
+    top: 12rem;
+    display: flex;
+    flex-direction: column;
+    padding-left: 2rem; } }

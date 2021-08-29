@@ -1,3 +1,7 @@
+.titulosPortfolioLG{
+  font-size: 6rem;
+  padding-left: 2rem;
+}
 .containerPortfolio-primero{
   margin-top: 5rem;
   display: grid;
@@ -64,7 +68,7 @@
   align-items: center;
   margin-top: 3rem;
 }
-.carouselEditado{
+.carouselEditadoLG{
   height: 400px;
   width: 500px;
 }
@@ -76,4 +80,16 @@
 .gitHub{
   color: #F05219;
   font-size: 2rem;
+  padding-left: 2rem;
+}
+.ubicacionImgPortfolio{
+  max-width: 3rem;
+  margin-bottom: 1rem;
+}
+.ubicacion{
+  div{
+    p{
+      padding: 0;
+    }
+  }
 }

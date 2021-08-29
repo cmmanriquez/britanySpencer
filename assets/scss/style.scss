@@ -21,7 +21,9 @@
 .openSans{
   font-family: 'Open Sans', sans-serif;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 body{
   font-size: 12px;
   padding: 0;
@@ -72,10 +74,6 @@ i:hover{
 .botonModificadoMobile{
   border-color: transparent;
 }
-.titulosPortfolio{
-  font-size: 6rem;
-  padding-left: 2rem;
-}
 .seleccionado{
   text-decoration: line-through;
 }
@@ -109,8 +107,25 @@ footer{
   }
 }
 .derechos{
-  font-size: 0.7rem;
+  font-size: 0.6rem;
+  opacity: 0.6;
   margin: 0;
   padding: 1rem;
   font-family: 'Open Sans', sans-serif;
+}
+
+
+
+/*Ajustes generales en desktop*/
+@media (min-width: 767.98px) {
+  .ocultarDesktop{
+    display: none;
+  }
+  .containerVideos-links{
+    position: fixed;
+    top: 12rem;
+    display: flex;
+    flex-direction: column;
+    padding-left: 2rem;
+  }
 }

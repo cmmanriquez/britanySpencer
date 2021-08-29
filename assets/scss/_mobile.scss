@@ -1,5 +1,182 @@
 @media (max-width: 575.98px) {
+
+  /*GENERALES*/
  .ocultarMobile{
    display: none;
  }
+
+ /*INDEX*/
+ .containerIndex-primero{
+   margin-top: 4rem;
+   video{
+     max-width: 90%;
+   }
+ }
+ .indexSegundoImagenesMobile{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+ }
+ .containerIndex-tercero{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   align-items: center;
+   img{
+     padding-bottom: 1rem;
+   }
+ }
+ .containerIndex-cuarto{
+   display: block;
+   padding-top: 7rem;
+ }
+ .cuarto-primero--derecha{
+   display: block;
+   padding: 0 1rem;
+ }
+ .aboutTexto{
+   padding: 6rem 1rem 3rem 2rem;
+ }
+ .contactoFooter{
+   margin: 0;
+   display: flex;
+   flex-direction: column-reverse;
+   justify-content: center;
+   align-items: center;
+ }
+ #contacto{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   width: 100%;
+ }
+ .ubicacion{
+   padding: 1rem 0 0 0;
+   ul{
+     display: flex;
+     flex-direction: column;
+     justify-content: flex-end;
+   }
+   p{
+     padding: 0;
+   }
+ }
+
+ /*PORTFOLIO*/
+ .containerPortfolio-primero{
+   margin-top: 4rem;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+ }
+ .containerPortfolio-primero{
+   .imgPortfolio01, .imgPortfolio03{
+     padding: 0;
+   }
+   .imgPortfolio03{
+     padding-top: 2rem;
+   }
+ }
+ .titulosPortfolioMobile{
+   font-size: 3.6rem;
+   padding-left: 1rem;
+ }
+ .containerPortfolio-video--primero{
+   display: block;
+   margin-top: 4rem;
+ }
+ .videoCuadricula-uno{
+   padding: 2rem 0 0 0;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: flex-end;
+   div{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: flex-end;
+      img{
+       padding-bottom: 1rem;
+      }
+    }
+  }
+  .containerPortfolio-video--tercero{
+    display: flex;
+    flex-direction: column-reverse;
+    .portfolioListaDeVideos{
+      padding: 0 0 0 2rem;
+      a{
+        font-size: 1.2rem;
+      }
+    }
+    .videoCuadricula-dos{
+    padding: 5rem 0 0 0;
+      div{
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        img{
+          padding-bottom: 1rem;
+        }
+      }
+    }
+  }
+  .containerCeramicas{
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    .containerCeramicas-cuadricula{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      img{
+        padding: 2rem 0;
+      }
+    }
+  }
+  .carouselEditadoMobile{
+    height: 400px;
+    width: 300px;
+  }
+  .containerWeb{
+    margin-top: 4rem;
+  }
+  .gitHub{
+    margin-left: 2rem;
+  }
+  .ubicacion{
+    img{
+      max-width: 20%;
+      margin-bottom: 1rem;
+    }
+  }
+
+  /*VIDEOS*/
+  .containerVideos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 5rem;
+    padding-left: 0;
+    .containerVideos-links{
+      display: flex;
+      flex-direction: column;
+      padding: 2rem 0 0 1rem;
+    }
+    .containerVideos-videosMobile{
+      margin-top: 3rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      iframe{
+        margin-bottom: 1rem;
+      }
+    }
+  }
 }

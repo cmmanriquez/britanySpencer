@@ -1,15 +1,11 @@
+#videos{
+  padding-top: 2rem;
+}
 .containerVideos{
  display: flex;
  flex-direction: row;
 }
-.containerVideos-links{
-  position: fixed;
-  top: 12rem;
-  display: flex;
-  flex-direction: column;
-  padding-left: 2rem;
-}
-.containerVideos-videos{
+.containerVideos-videosLG{
   margin: 7rem 0 0 40%;
   display: flex;
   flex-direction: column;
