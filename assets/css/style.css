@@ -28,7 +28,8 @@
   justify-content: space-around; }
 
 .containerIndex-cuarto {
-  padding-top: 13rem; }
+  padding-top: 13rem;
+  margin: 0; }
 
 .containerIndex-cuarto--primero {
   display: flex;
@@ -64,7 +65,8 @@
   grid-area: imgIndex03; }
 
 .aboutTexto {
-  padding: 10rem 2rem 3rem 2rem; }
+  padding: 5rem 2rem 3rem 2rem;
+  margin-top: 5rem; }
 
 .aboutImagen {
   padding: 0 0 0 12rem; }
@@ -72,7 +74,7 @@
 .contactoFooter {
   display: flex;
   justify-content: space-between;
-  margin: 15rem 3rem 7rem 3rem; }
+  margin: 14rem 3rem 7rem 3rem; }
 
 #contacto {
   width: 50%;
@@ -104,14 +106,14 @@
   color: #F05219;
   font-family: 'Open Sans', sans-serif; }
 
-.ubicacion {
+.ubicacionIndex {
   padding-left: 8rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center; }
 
-.ubicacion img {
+.ubicacionIndex img {
   width: 70%; }
 
 footer div div ul {
@@ -191,6 +193,18 @@ footer div div ul {
   font-size: 2rem;
   padding-left: 2rem; }
 
+.ubicacion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0.5rem; }
+  .ubicacion .ubicacionLista li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+
 .ubicacionImgPortfolio {
   max-width: 3rem;
   margin-bottom: 1rem; }
@@ -220,7 +234,7 @@ footer div div ul {
 .containerVideos-links a:hover {
   text-decoration: line-through; }
 
-@media (max-width: 575.98px) {
+@media (min-width: 300px) and (max-width: 767.98px) {
   /*GENERALES*/
   .ocultarMobile {
     display: none; }
@@ -359,9 +373,12 @@ footer div div ul {
   .ocultarTablet {
     display: none; }
   /*INDEX*/
+  .containerIndex-cuarto {
+    display: block;
+    padding-top: 7rem; }
   .cuarto-primero--derecha {
-    padding-left: 1rem;
-    grid-template-columns: 32rem auto; }
+    display: block;
+    padding: 0 2rem; }
   .containerIndex-tercero {
     display: grid;
     grid-template-columns: 200px 200px;
@@ -429,7 +446,8 @@ footer div div ul {
   font-family: 'Open Sans', sans-serif; }
 
 html {
-  scroll-behavior: smooth; }
+  scroll-behavior: smooth;
+  margin: 0; }
 
 body {
   font-size: 12px;
@@ -458,6 +476,9 @@ i {
 
 i:hover {
   color: #C0F500; }
+
+.navbarBrand-modificado {
+  padding: 0.5rem; }
 
 .carousel-control-next, .carousel-control-prev {
   opacity: 1; }
@@ -513,7 +534,7 @@ footer ul li {
   font-family: 'Open Sans', sans-serif; }
 
 /*Ajustes generales en desktop*/
-@media (min-width: 767.98px) {
+@media (min-width: 992px) {
   .ocultarDesktop {
     display: none; }
   .containerVideos-links {

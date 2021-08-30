@@ -29,6 +29,7 @@
 }
 .containerIndex-cuarto{
   padding-top: 13rem;
+  margin: 0;
 }
 .containerIndex-cuarto--primero{
   display: flex;
@@ -71,7 +72,8 @@
   grid-area: imgIndex03;
 }
 .aboutTexto{
-  padding: 10rem 2rem 3rem 2rem;
+  padding: 5rem 2rem 3rem 2rem;
+  margin-top: 5rem;
 }
 .aboutImagen{
   padding: 0 0 0 12rem;
@@ -79,7 +81,7 @@
 .contactoFooter{
   display: flex;
   justify-content: space-between;
-  margin: 15rem 3rem 7rem 3rem;
+  margin: 14rem 3rem 7rem 3rem;
 }
 #contacto{
   width: 50%;
@@ -103,14 +105,14 @@
             color: #F05219;
             font-family: 'Open Sans', sans-serif;
  }
-.ubicacion{
+.ubicacionIndex{
   padding-left: 8rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
-.ubicacion{
+.ubicacionIndex{
   img{
     width: 70%;
   }

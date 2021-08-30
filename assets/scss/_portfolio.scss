@@ -82,6 +82,21 @@
   font-size: 2rem;
   padding-left: 2rem;
 }
+.ubicacion{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0.5rem;
+  .ubicacionLista{
+    li{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+  }
+}
 .ubicacionImgPortfolio{
   max-width: 3rem;
   margin-bottom: 1rem;

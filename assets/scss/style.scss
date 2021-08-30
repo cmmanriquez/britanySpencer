@@ -24,6 +24,7 @@
 }
 html {
   scroll-behavior: smooth;
+  margin: 0;
 }
 body{
   font-size: 12px;
@@ -52,6 +53,9 @@ i{
 }
 i:hover{
   color: #C0F500;
+}
+.navbarBrand-modificado{
+  padding: 0.5rem;
 }
 .carousel-control-next, .carousel-control-prev{
   opacity: 1;
@@ -118,7 +122,7 @@ footer{
 
 
 /*Ajustes generales en desktop*/
-@media (min-width: 767.98px) {
+@media (min-width: 992px) {
   .ocultarDesktop{
     display: none;
   }
